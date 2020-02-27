@@ -9,13 +9,22 @@ x = [[181,80,12],[177,70,6],[160,60,7],[154,54,4],
 y = ["male","female","female","female","male","male",
     "male","female","male","female","male"]
 
+
+#intialize tree classifier 
+
 clf = tree.DecisionTreeClassifier()
 
+#fit with training data
 clf = clf.fit(x,y)
+
+#make prediction
 
 prediction = clf.predict([[80,90,4]])
 
 print (prediction)
+
+
+
 
 
 
