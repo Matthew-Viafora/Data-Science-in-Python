@@ -19,7 +19,7 @@ clf = clf.fit(x,y)
 
 #make prediction
 
-prediction = clf.predict([[80,90,4]])
+prediction = clf.predict([[190,63,11]])
 
 print (prediction)
 
